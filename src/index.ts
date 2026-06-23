@@ -11,6 +11,7 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
+// TEST YOOOOO 
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
 		return new Response("Hello World!");
